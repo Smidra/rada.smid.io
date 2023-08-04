@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                fontFamily: {
+                    'ibm': ['"IBM Plex Serif"', 'normal'],
+                    'poppins': ['"Poppins"', 'normal'],
+                    'merry': ['"Merriweather"', 'normal'],
+                },
+            }
+          }
+        }
+      </script>
+
+</head>
+<body>
+    <div class="container mx-auto max-w-2xl font-ibm my-6 p-8">
+        <h1 class="text-4xl font-bold"><a href="/web">Radek Šmíd</a> <a class="font-light">/ webovky</a></h1>
+        
+        <p class="my-5">
+        Osobní internetová nástěnka, kde v duchu původního decentralizovaného hypertextu na vlastním serveru sdílím vlastní html soubory s poznatky, projekty a zjímavostmi. 
+        </p>
+
+        <h2 class="text-xl my-5 font-bold">Blog</h2>
+        <ul class="list-disc list-inside">
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="/box/smid-containers.pdf">
+                    Container runtime vs Container engine <span class="font-light">/ 2023-06</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" href="/web/texinstall.html">
+                    Jak nainstalovat CSplainTeX na Fedoru <span class="font-light">/ 2020-04</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="/box/amerika-export.pdf">
+                    Amerika - Road trip před promocí <span class="font-light">/ 2019-08</span>
+                </a><a class="hover:underline decoration-dotted hover:text-rose-800 font-light" target="_blank" href="/galerie-amerika/">(galerie)</a>
+            </li>
+        </ul>
+
+        <h2 class="text-xl my-5 font-bold">Projekty a blbinky</h2>
+        <ul class="list-disc list-inside">
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://github.com/Smidra/webserver-dwarfs">
+                    Webserver dwarfs  <span class="font-light">/ Nasaďte Kubernetes s trpaslíky (100K+ stažení)</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://titulator.smid.io">
+                    Titulátor.cz <span class="font-light">/ Jak správně oslovovat tituly?</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://github.com/Smidra/vedomostni-turnaj">
+                    Vědomostní turnaj <span class="font-light">/ Riskuj s tajenkou</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://github.com/Smidra/world-of-papercraft-artillery">
+                    Svět papírového dělostřelectva  <span class="font-light">/ Python script na dělostřelecké tabulky</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" href="/web/bazen.html">
+                    Obsazenost třeboňského bazénu <span class="font-light">/ Scraping obsazenosti lázní Aurora</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" href="/web/chramy.html">
+                    Generátor jmen sakrálních staveb <span class="font-light">/ Protože proč ne?</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" href="/web/pisnicky.html">
+                    Archiv písniček před jídlem <span class="font-light"></span>
+                </a>
+            </li>
+        </ul>
+
+        <h2 class="text-xl my-5 font-bold">Didaktické materiály do výuky</h2>
+        <ul class="list-disc list-inside">
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://internet4kids.mff.cuni.cz">
+                    Jak funguje internet? <span class="font-light">/ Čtyři didaktické plakáty do škol</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://rada.smid.io/box/smid-zelvicka.pdf">
+                    Želvička a čárové kódy <span class="font-light">/ Reverse engineering pro osmáky</span>
+                </a>
+            </li>
+        </ul>
+
+        <h2 class="text-xl my-5 font-bold">Texty a Akademické práce</h2>
+        <ul class="list-disc list-inside">
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://rada.smid.io/projekty/ppp/pohadky_pohadky_pohadky.pdf">
+                    Pohádky pohádky pohádky <span class="font-light">/ Devatero pohádek pro děti</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://rada.smid.io/box/smid-plysovy-svet.pdf">
+                    Plyšový svět <span class="font-light">/ Pohádka pro smutné děti</span>
+                </a><a class="hover:underline decoration-dotted hover:text-rose-800 font-light" target="_blank" href="https://rada.smid.io/box/smid-plush-world.pdf">(en)</a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://rada.smid.io/box/smid-foitos-a-eos.pdf">
+                    Foitos a Éos <span class="font-light">/ Ptákovina za kterou mám Áčko z filosofie</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="http://hdl.handle.net/20.500.11956/180713">
+                    Diplomová práce <span class="font-light">/ Tvorba didaktických materiálů pro 2. stupeň ZŠ</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="http://hdl.handle.net/10467/88177">
+                    Bakalářská práce <span class="font-light">/ CI CD with Kubernetes</span>
+                </a>
+            </li>
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://rada.smid.io/box/SMID-SOC-origami-jako-ucebni.pdf">
+                    Středoškolská odborná činnost <span class="font-light">/ Origami jako učební pomůcka</span>
+                </a>
+            </li>
+        </ul>
+
+        <h2 class="text-xl my-5 font-bold">Zajímavé odkazy na cizí tvorbu</h2>
+        <ul class="list-disc list-inside">
+            <li>
+                <a class="hover:underline decoration-dotted hover:text-rose-800" target="_blank" href="https://www.pixy.cz/osobni/basnicky/skakalpes.html">
+                    Skákal pes <span class="font-light">/ Jak by to napsali jiní</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+</body>
+</html>
